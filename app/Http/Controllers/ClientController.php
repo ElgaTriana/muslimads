@@ -16,7 +16,7 @@ class ClientController extends Controller
 
     public function pagecity(Request $request){
         $data=Client::all();
-        return view('clientpage')
+        return view('pagecity')
         ->with('data', $data);
     }
 

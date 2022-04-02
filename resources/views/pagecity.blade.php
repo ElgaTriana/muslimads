@@ -87,7 +87,7 @@
                 </table>
                 <br>
                 <p>Semarang</p>
-                <table id="example" class="table table-striped table-bordered" style="width:100%">
+                <table id="example1" class="table table-striped table-bordered" style="width:100%">
                     <thead>
                         <tr>
                             <th>Name</th>
@@ -98,7 +98,6 @@
                     </thead>
                     <tbody>`;
                     $.each(data, function(a, b){
-
                         if(b.city=="Semarang"){
                         html+=
                         `<tr>
@@ -113,8 +112,7 @@
                 </table>
                 <br>
                 <p>Jogja</p>
-
-                <table id="example" class="table table-striped table-bordered" style="width:100%">
+                <table id="example2" class="table table-striped table-bordered" style="width:100%">
                     <thead>
                         <tr>
                             <th>Name</th>
@@ -137,12 +135,21 @@
                     });
                     html+=`</tbody>
                 </table>
+                <br>
             `;
 
             $('.container').html(html);
 
             $(document).ready(function() {
                 $('#example').DataTable({
+                    "pageLength": 5
+                });
+
+                $('#example2').DataTable({
+                    "pageLength": 5
+                });
+
+                $('#example3').DataTable({
                     "pageLength": 5
                 });
             });
