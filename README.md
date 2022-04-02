@@ -1,3 +1,13 @@
+Cara Menjalankan : 
+
+1. Clone terlebih dahulu dengan cara 
+2. Edit .env, sesuaikan dengan nama database yang akan di buat
+3. Buat database terlebih dahulu
+4. jalankan perintah php artisan migrate / php artisan migrate --path=/database/migrations/2022_04_02_061222_create_clients_table.php
+5. php artisan make:seeder ClientTableSeeder
+6. php artisan migrate --seed
+7. Selesai
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
