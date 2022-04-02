@@ -27,7 +27,7 @@
               <a class="nav-link" href="{{ URL::to('/') }}">Page 5 <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="{{ URL::to('/pagegroup') }}">Page Group City <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="{{ URL::to('/pagecity') }}">Page Group City <span class="sr-only">(current)</span></a>
               </li>
             <li class="nav-item">
               <a class="nav-link" href="{{ URL::to('/arraymax') }}">Array Max</a>
@@ -145,11 +145,11 @@
                     "pageLength": 5
                 });
 
-                $('#example2').DataTable({
+                $('#example1').DataTable({
                     "pageLength": 5
                 });
 
-                $('#example3').DataTable({
+                $('#example2').DataTable({
                     "pageLength": 5
                 });
             });
