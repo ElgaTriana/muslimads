@@ -1,6 +1,6 @@
 Cara Menjalankan : 
 
-1. Clone terlebih dahulu dengan cara 
+1. Clone terlebih dahulu dengan cara : https://github.com/ElgaTriana/muslimads.git
 2. Edit .env, sesuaikan dengan nama database yang akan di buat
 3. Buat database terlebih dahulu
 4. jalankan perintah php artisan migrate / php artisan migrate --path=/database/migrations/2022_04_02_061222_create_clients_table.php
